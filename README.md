@@ -26,17 +26,17 @@ yarn add blincs-player
 
 ## Usage
 
-Import the `CustomVideoPlayer` component and use it in your project:
+Import the `Player` component and use it in your project:
 
 ```tsx
 import React from 'react';
-import CustomVideoPlayer from 'blincs-player';
+import Player from 'blincs-player';
 import 'blincs-player/dist/styles.css'; // Ensure you import the styles
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <CustomVideoPlayer
+      <Player
         videoUrl="https://example.com/video"
         customClasses="custom-video-player-class"
         buttonStyles={{
@@ -105,13 +105,13 @@ export default App;
 
 ```tsx
 import React from 'react';
-import CustomVideoPlayer from 'blincs-player';
+import Player from 'blincs-player';
 import 'blincs-player/dist/styles.css'; // Ensure you import the styles
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <CustomVideoPlayer
+      <Player
         videoUrl="https://example.com/video"
         customClasses="custom-video-player-class"
         buttonStyles={{
@@ -144,6 +144,3 @@ export default App;
 ## License
 
 MIT
-```
-
-This README provides detailed information about the features, installation, usage, props, and an example of how to use the `CustomVideoPlayer` component. It also highlights the component's support for chunked media playback, which ensures faster streaming.
