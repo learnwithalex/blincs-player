@@ -1,4 +1,3 @@
-```markdown
 # Blincs Player
 
 Blincs Player is a customizable React video player component with TypeScript support. It uses Tailwind CSS for styling and allows developers to fully customize the player buttons and other elements. The player is optimized for chunked media playback, ensuring faster load times and smoother streaming.
