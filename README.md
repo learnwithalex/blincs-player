@@ -31,7 +31,7 @@ Import the `Player` component and use it in your project:
 ```tsx
 import React from 'react';
 import Player from 'blincs-player';
-import 'blincs-player/dist/styles.css'; // Ensure you import the styles
+import 'blincs-player/dist/player.css'; // Ensure you import the styles
 
 const App: React.FC = () => {
   return (
@@ -106,7 +106,7 @@ export default App;
 ```tsx
 import React from 'react';
 import Player from 'blincs-player';
-import 'blincs-player/dist/styles.css'; // Ensure you import the styles
+import 'blincs-player/dist/player.css'; // Ensure you import the styles
 
 const App: React.FC = () => {
   return (
